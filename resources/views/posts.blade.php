@@ -1,5 +1,6 @@
 <x-layout>
 
+
     @foreach ($posts as $post) 
         
         <article>

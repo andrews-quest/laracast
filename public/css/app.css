@@ -1,0 +1,37 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+ }
+ 
+ body {
+    margin: 0;
+    min-height: 100%;
+    width: 100%;
+    background: rgb(247, 239, 246);
+    color: rgb(247, 239, 246);
+}
+
+main{
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(136, 60, 132);
+    min-height: 1080px;
+    padding: 1px;
+
+}
+
+a:link{
+    color: rgb(247, 239, 246);
+}
+
+a:visited{
+    color: rgb(247, 239, 246);
+}
+
+article{
+    margin: 15px 10px;
+    padding: 6px;
+    color: yellow;
+    border: 2px solid rgb(247, 239, 246);
+}

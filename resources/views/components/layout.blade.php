@@ -2,11 +2,12 @@
 
 <head>
     <title>My Blog</title>
-    <link rel="stylesheets" href="{{ asset('css/app.css') }}">
-    <link rel="icon" type="image/x-icon" href="{{ url('css/icon.png') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
+
 </head>
 
 <body>
-
-    {{ $slot }}
+    <main>
+        {{ $slot }}
+    </main>
 </body>
